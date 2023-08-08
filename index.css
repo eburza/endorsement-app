@@ -1,0 +1,105 @@
+
+html, body {
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    background-color: #1B1924;
+    color: #fff;
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 40px auto;
+}
+
+/* input section*/
+#input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-field {
+    background-color: #444059;
+    color: #8F8F8F;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-family: inherit;
+    font-weight: 500;
+}
+
+#endorsement-input-field {
+    margin: 20px auto 10px;
+    height: 200px;
+    width: 360px;  
+}
+
+
+#publish-button {
+    background-color: #28A9F1;
+    color: #04131C;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 50px;
+    width: 380px;
+    height: 55px;
+    margin: 10px auto 20px;
+    font-weight: 700;
+}
+
+#publish-button:hover {
+    background-color: #1446A0;
+    cursor: pointer;
+}
+
+/*endoresment headline section*/
+
+#endorsement-heading {
+  line-height: 0.5;
+}
+#endorsement-heading span {
+  display: inline-block;
+  position: relative;  
+}
+#endorsement-heading span:before,
+#endorsement-heading span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 2px solid white;
+  width: 20px;
+}
+#endorsement-heading span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+#endorsement-heading span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+   
+/* comments section */
+
+#endorsement-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+#endorsement-message li {
+    margin-top: 20px;
+    background-color: #fff;
+    color: #1B1924;
+    border-radius: 6px;
+    padding: 10px 15px;  
+    width: 340px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+
+
